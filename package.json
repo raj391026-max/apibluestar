@@ -1,14 +1,17 @@
 {
-  "name": "techbluestar-api",
+  "name": "apibluestar",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.19.2",
+    "express": "^4.18.2",
     "mysql2": "^3.9.7",
     "cors": "^2.8.5"
   }
 }
- 
+   
